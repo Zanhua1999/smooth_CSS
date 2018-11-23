@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <title>smooth scrolling</title>
+    <link rel="stylesheet" href="css/verticaal.css">
+    <style media="screen">
+        html {
+            overflow-y: hidden;
+        }
+
+        main {
+            width: 500vw;
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+        }
+
+        section {
+            box-sizing: border-box;
+            height: 100vh;
+            overflow: auto;
+        }
+
+        section img {
+            max-width: 100%;
+            margin: 1em 0;
+        }
+
+    
+    </style>
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#rood">rood</a></li>
+        <li><a href="#groen">groen</a></li>
+        <li><a href="#blauw">blauw</a></li>
+        <li><a href="#oranje">oranje</a></li>
+        <li><a href="#geel">geel</a></li>
+    </ul>
+</nav>
+<main>
+    <section id="rood">
+        <h2>rood</h2>
+        <p>dit is de rode page <br>
+            een link naar <a href="index.html">de verticale versie</a>
+        </p>
+    </section>
+    <section id="groen">
+        <h2>groen</h2>
+        <p>dit is de groen page</p>
+    </section>
+    <section id="blauw">
+        <h2>blauw</h2>
+        <p>dit is de blauwe page</p>
+    </section>
+    <section id="oranje">
+        <h2>oranje</h2>
+        <p>dit is de oranje page</p>
+    </section>
+    <section id="geel">
+        <h2>geel</h2>
+        <p>dit is de gele page</p>
+    </section>
+</main>
+</body>
+</html>
